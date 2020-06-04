@@ -1,6 +1,4 @@
 ## Welcome to kevinnls' page
 
-[sup?](./link.html)
-
-> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
->  Captain Janeway
+* i made a [JS app.](./learning-js "my js app")
+* i made a [React app.](https://alien-range-277613.el.r.appspot.com/ "my react app")
