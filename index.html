@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <title>Kevin Samuel</title>
+    <style>
+	:root {
+	    font-family: roboto;
+	    font-size: 12px;
+	}
+	* {
+	    box-sizing: border-box;
+	    margin: 0px;
+	    padding: 0px;
+	}
+	html {
+	    color-scheme: dark;
+	    text-align: center;
+	    scroll-behavior: smooth;
+	}
+	body {
+	    height: 100vh;
+	    height: 100dvh;
+	    width: 100vw;
+	    width: 100dvw;
+	    padding: 10px;
+	}
+	body, main {
+	    font-size: clamp(16px, 2.5vw, 2rem);
+	    font-size: clamp(16px, 2.5svw, 2rem);
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	}
+	header, footer {
+	    width: 100%;
+	}
+	main {
+	    width: clamp(65%, 400px, 90%);
+	}
+	section {
+	    margin: 30px;
+	}
+	a {
+	    color: red;
+	    text-decoration: none;
+	    opacity: .5;
+	}
+	a:link,a:visited {
+	    color: rgb(112 112 229);
+	    opacity: revert;
+	}
+	#nav-list {
+	    justify-content: space-around;
+	    align-items: center;
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	#nav-list, #suggestion-list {
+	    list-style: none;
+	    font-weight: bolder;
+	}
+	#construction-sign {
+	    font-size: 2em;
+	}
+	#suggestion-list h2,h3,h4 {
+	    display: inline;
+	}
+	#suggestion-list > li {
+	    margin: 1.2em 0;
+	}
+	#suggestion-list ul {
+	    width: fit-content;
+	    margin: 5px auto;
+	}
+    </style>
+</head>
+<body>
+    <header>
+	<!--Kevin Samuel-->
+	<nav>
+	    <ul id="nav-list">
+		<li><a href="/blogs">blogs</a></li>
+		<li><a href="https://github.com/kevinnls">code</a></li>
+		<!--<li><a><big>resume</big></a></li>-->
+		<!--<li><a href="/socials">socials</a></li>-->
+		<!--<li><a href="/contact">contact</a></li>-->
+	    </ul>
+	</nav>
+    </header>
+    <main>
+	<section>
+	<h1>welcome to Kevin Samuel's website!</h1>
+	<p>...but it's still under construction...</p>
+	<big id="construction-sign">🚧</big>
+	</section>
+	<section>
+	<p>perhaps you'd be interested in one of these instead?</p>
+	<ul id="suggestion-list">
+	    <!--<li><h2><a>resume</a></h2></li>-->
+
+	    <li>
+		<h2><a href="/blogs">blogs</a></h2>
+		<ul id="blog-list">
+		    <li><a href="https://techfordummymummy.netlify.app">Tech For Dummy Mummy</a></li>
+		    <li><a href="https://medium.com/bitesyzedtechnotebook/">bite syzed tech notebook</a></li>
+		    <li><a href="https://kevinnlsamuel.com/bitesyzedtechdiary">bitesyzedtechdiary</a></li>
+		</ul>
+	    </li>
+	    <li id="code-project-list">
+		<h2><a href="https://github.com/kevinnls">code projects</a></h2>
+	    </li>
+	</ul>
+	</section>
+    </main>
+    <footer>
+	&copy; Kevin Samuel, 2022
+    </footer>
+</body>
+</html>
