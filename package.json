@@ -1,0 +1,24 @@
+{
+  "name": "com.kevinnlsamuel",
+  "version": "0.1.0",
+  "description": "personal homepage of Kevin Samuel (developer@kevinnlsamuel.com)",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinnls/kevinnls.github.io.git"
+  },
+  "private": true,
+  "author": {
+    "name": "Kevin Samuel",
+    "email": "developer@kevinnlsamuel.com",
+    "url": "https://kevinnlsamuel.com"
+  },
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kevinnls/kevinnls.github.io/issues"
+  },
+  "homepage": "https://github.com/kevinnls/kevinnls.github.io#readme"
+}
