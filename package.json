@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/kevinnls/kevinnls.github.io/issues"
   },
-  "homepage": "https://github.com/kevinnls/kevinnls.github.io#readme"
+  "homepage": "https://github.com/kevinnls/kevinnls.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "concurrently": "^8.0.1",
+    "tailwindcss": "^3.3.0"
+  }
 }
